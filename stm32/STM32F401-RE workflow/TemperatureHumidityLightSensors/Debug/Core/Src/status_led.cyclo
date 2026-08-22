@@ -1,0 +1,3 @@
+../Core/Src/status_led.c:4:13:StatusLed_AllOff	1
+../Core/Src/status_led.c:9:6:StatusLed_Init	1
+../Core/Src/status_led.c:14:6:StatusLed_Set	5

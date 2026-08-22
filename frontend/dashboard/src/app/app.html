@@ -1,0 +1,242 @@
+<div class="dashboard">
+
+  <div class="dashboard-header">
+    <div class="brand">
+      <div class="brand-icon">
+        <svg lucideActivity></svg>
+      </div>
+
+      <div>
+        <h1>IoT Environment Monitor</h1>
+        <p>Real-time environmental monitoring</p>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="live">
+        <span></span>
+        LIVE
+      </div>
+
+      <div class="last-update" *ngIf="lastUpdated()">
+        <svg lucideClock></svg>
+        {{ lastUpdated() | date:'HH:mm:ss' }}
+      </div>
+
+      <button class="refresh-button" (click)="loadData()">
+        <svg lucideRefreshCw></svg>
+      </button>
+    </div>
+  </div>
+
+
+  <div class="sensor-row">
+
+    <div class="sensor-card">
+      <div class="sensor-icon">
+        <svg lucideThermometer></svg>
+      </div>
+
+      <div>
+        <span>Temperature</span>
+
+        <strong>
+          {{ currentData()?.temperature ?? '--' }}
+          <small>°C</small>
+        </strong>
+      </div>
+    </div>
+
+
+    <div class="sensor-card">
+      <div class="sensor-icon humidity">
+        <svg lucideDroplets></svg>
+      </div>
+
+      <div>
+        <span>Humidity</span>
+
+        <strong>
+          {{ currentData()?.airHumidity ?? '--' }}
+          <small>%</small>
+        </strong>
+      </div>
+    </div>
+
+
+    <div class="sensor-card">
+      <div class="sensor-icon light">
+        <svg lucideSun></svg>
+      </div>
+
+      <div>
+        <span>Light</span>
+
+        <strong>
+          {{ currentData()?.light ?? '--' }}
+          <small>%</small>
+        </strong>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="charts-row">
+
+    <div class="chart-card">
+      <div class="chart-title">
+        <div>
+          <h3>Temperature history</h3>
+          <span>Last 12 measurements</span>
+        </div>
+
+        <small>°C</small>
+      </div>
+
+      <canvas id="chart1"></canvas>
+    </div>
+
+
+    <div class="chart-card">
+      <div class="chart-title">
+        <div>
+          <h3>Humidity history</h3>
+          <span>Last 12 measurements</span>
+        </div>
+
+        <small>%</small>
+      </div>
+
+      <canvas id="chart2"></canvas>
+    </div>
+
+
+    <div class="chart-card">
+      <div class="chart-title">
+        <div>
+          <h3>Light history</h3>
+          <span>Last 12 measurements</span>
+        </div>
+
+        <small>%</small>
+      </div>
+
+      <canvas id="chart3"></canvas>
+    </div>
+
+  </div>
+
+
+  <div class="status-banner" [ngClass]="getStatusClass()">
+
+    <div class="status-icon">
+      <svg lucideTriangleAlert></svg>
+    </div>
+
+    <div>
+      <span>{{ currentData()?.status || 'OFFLINE' }}</span>
+
+      <h3>{{ getStatusTitle() }}</h3>
+
+      <p>{{ getStatusMessage() }}</p>
+    </div>
+
+  </div>
+
+
+  <div class="log-card">
+
+    <div class="log-header">
+      <div>
+        <h3>Event / Alarm Log</h3>
+        <p>Recent measurements outside normal conditions</p>
+      </div>
+
+      <span>{{ alarmLogs().length }} events</span>
+    </div>
+
+
+    <div class="table-wrapper">
+
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Status</th>
+            <th>Temperature</th>
+            <th>Humidity</th>
+            <th>Light</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr *ngFor="let log of alarmLogs()">
+
+            <td>
+              {{ log.time | date:'HH:mm:ss' }}
+            </td>
+
+            <td>
+              <span
+                class="status-pill"
+                [ngClass]="log.status.toLowerCase()"
+              >
+                {{ log.status }}
+              </span>
+            </td>
+
+            <td>{{ log.temperature }} °C</td>
+
+            <td>{{ log.airHumidity }} %</td>
+
+            <td>{{ log.light }} %</td>
+
+          </tr>
+
+        </tbody>
+      </table>
+
+      <div class="no-events" *ngIf="alarmLogs().length === 0">
+        No recent alarms.
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="popup-overlay" *ngIf="showAlarmPopup()">
+
+  <div class="alarm-popup">
+
+    <button class="popup-close" (click)="closeAlarmPopup()">
+      <svg lucideX></svg>
+    </button>
+
+    <div class="popup-icon">
+      <svg lucideTriangleAlert></svg>
+    </div>
+
+    <span>{{ currentData()?.status }}</span>
+
+    <h2>{{ getStatusTitle() }}</h2>
+
+    <p>{{ getStatusMessage() }}</p>
+
+    <div class="popup-values">
+      <span>{{ currentData()?.temperature }} °C</span>
+      <span>{{ currentData()?.airHumidity }} %</span>
+      <span>{{ currentData()?.light }} %</span>
+    </div>
+
+    <button class="acknowledge" (click)="closeAlarmPopup()">
+      Acknowledge
+    </button>
+
+  </div>
+
+</div>

@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\models\\gardensensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\models\\gardensensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\dtos\\addsensordatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\dtos\\addsensordatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\services\\sensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\services\\sensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\services\\isensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\services\\isensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\services\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\services\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|c:\\users\\markoo\\desktop\\iot_repo\\iot_projekat\\backend\\iotprojekat\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF2F429C-A6A9-40D6-2518-0769022415FE}|IOTProjekat\\IOTProjekat.csproj|solutionrelative:iotprojekat\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SensorController.cs",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Controllers\\SensorController.cs",
+              "RelativeDocumentMoniker": "IOTProjekat\\Controllers\\SensorController.cs",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Controllers\\SensorController.cs",
+              "RelativeToolTip": "IOTProjekat\\Controllers\\SensorController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T16:59:21.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddSensorDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\DTOs\\AddSensorDataDto.cs",
+              "RelativeDocumentMoniker": "IOTProjekat\\DTOs\\AddSensorDataDto.cs",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\DTOs\\AddSensorDataDto.cs",
+              "RelativeToolTip": "IOTProjekat\\DTOs\\AddSensorDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T16:58:23.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SensorService.cs",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Services\\SensorService.cs",
+              "RelativeDocumentMoniker": "IOTProjekat\\Services\\SensorService.cs",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Services\\SensorService.cs",
+              "RelativeToolTip": "IOTProjekat\\Services\\SensorService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T16:54:16.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISensorService.cs",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Services\\ISensorService.cs",
+              "RelativeDocumentMoniker": "IOTProjekat\\Services\\ISensorService.cs",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Services\\ISensorService.cs",
+              "RelativeToolTip": "IOTProjekat\\Services\\ISensorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T16:53:06.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Program.cs",
+              "RelativeDocumentMoniker": "IOTProjekat\\Program.cs",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Program.cs",
+              "RelativeToolTip": "IOTProjekat\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T16:51:31.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GardenSensor.cs",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Models\\GardenSensor.cs",
+              "RelativeDocumentMoniker": "IOTProjekat\\Models\\GardenSensor.cs",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Models\\GardenSensor.cs",
+              "RelativeToolTip": "IOTProjekat\\Models\\GardenSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T16:43:07.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "IOTProjekat\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\appsettings.Development.json",
+              "RelativeToolTip": "IOTProjekat\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T17:13:47.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\appsettings.json",
+              "RelativeDocumentMoniker": "IOTProjekat\\appsettings.json",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\appsettings.json",
+              "RelativeToolTip": "IOTProjekat\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T16:48:36.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Services\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "IOTProjekat\\Services\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Services\\MongoDbContext.cs",
+              "RelativeToolTip": "IOTProjekat\\Services\\MongoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T16:47:45.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IOTProjekat\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Markoo\\Desktop\\IOT_Repo\\IOT_Projekat\\backend\\IOTProjekat\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IOTProjekat\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T16:48:28.149Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

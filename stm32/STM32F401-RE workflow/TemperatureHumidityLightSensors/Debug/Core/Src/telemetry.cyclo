@@ -1,0 +1,6 @@
+../Core/Src/telemetry.c:11:20:Telemetry_GetStatusText	5
+../Core/Src/telemetry.c:23:6:Telemetry_Init	1
+../Core/Src/telemetry.c:29:6:Telemetry_Send	10
+../Core/Src/telemetry.c:62:6:Telemetry_IsBusy	1
+../Core/Src/telemetry.c:67:6:Telemetry_HandleTxComplete	2
+../Core/Src/telemetry.c:73:6:Telemetry_HandleError	2

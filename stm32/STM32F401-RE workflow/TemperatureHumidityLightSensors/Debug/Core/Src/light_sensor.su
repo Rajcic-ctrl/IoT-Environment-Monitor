@@ -1,0 +1,6 @@
+../Core/Src/light_sensor.c:14:6:LightSensor_Init	16	static
+../Core/Src/light_sensor.c:25:6:LightSensor_StartMeasurement	8	static
+../Core/Src/light_sensor.c:51:6:LightSensor_HandleAdcComplete	16	static
+../Core/Src/light_sensor.c:65:6:LightSensor_IsReady	4	static
+../Core/Src/light_sensor.c:70:10:LightSensor_GetRaw	4	static
+../Core/Src/light_sensor.c:77:9:LightSensor_RawToPercent	16	static

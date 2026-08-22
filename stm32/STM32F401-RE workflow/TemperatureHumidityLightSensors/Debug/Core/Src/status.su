@@ -1,0 +1,4 @@
+../Core/Src/status.c:18:21:Status_EvaluateTemperature	16	static
+../Core/Src/status.c:27:21:Status_EvaluateHumidity	16	static
+../Core/Src/status.c:36:21:Status_EvaluateLight	16	static
+../Core/Src/status.c:46:14:Status_Evaluate	24	static
